@@ -1,0 +1,23 @@
+
+
+:root {
+  --var-color-white: #ffff;
+  --var-color-black: #000;
+  --var-color-int: #121212;
+  --var-color-back: linear-gradient(107.34deg,#4409ec,#0e5dec);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: var(--var-color-black);
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+}
+input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+
+}
